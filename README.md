@@ -27,7 +27,22 @@ Applications:
 
 - Corporate Oversight: Ensure compliance with company policies and safeguard sensitive information.
 
-# How to Use
+## How to Use
 
+ - Download keylogger.py and server.py (obf.py provides the keylogger in obfuscated format and is optional to download)
+   
+ - Install External Modules:
+   `pip3 install pynput requests`
+
+ - Change the IP Address to the attacker machine on keylogger.py and server.py.
+
+ - Run keylogger.py on the victim machine:
+   `python3 keylogger`
+
+ - Run server.py on the attacker Machine:
+   `python3 server.py`
+   
+ - Kill the process if something goes wrong:
+   `sudo pkill python3 keylogger.py` or `taskkill /IM python.exe keylogger.py` if on Windows.
 
 Important Note: Make sure to use this tool responsibly and legally. Unauthorized key logging can violate privacy laws and regulations. Always get proper consent and follow relevant legal guidelines.
