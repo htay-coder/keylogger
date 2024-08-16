@@ -19,14 +19,6 @@ Key Features:
 
 - Data Handling: Captured keystrokes can be saved locally or sent to a server, with measures in place to protect this data from unauthorized access.
 
-Applications:
-
-- Security Monitoring: Keep track of activity on systems to detect unauthorized access.
-
-- Parental Controls: Monitor usage on family computers to ensure safety.
-
-- Corporate Oversight: Ensure compliance with company policies and safeguard sensitive information.
-
 ## How to Use
 
  - Download keylogger.py and server.py (obf.py provides the keylogger in obfuscated format and is optional to download).
