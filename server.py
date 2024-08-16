@@ -27,7 +27,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         pass  
 
 def run_server():
-    httpd = HTTPServer(('0.0.0.0', 8080), SimpleHTTPRequestHandler) # Change the IP address
+    httpd = HTTPServer(('0.0.0.0', 8080), SimpleHTTPRequestHandler) # Change the IP address and Port
     print("Serving on port 8080...")
     httpd.serve_forever()
 
