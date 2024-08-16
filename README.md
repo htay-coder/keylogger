@@ -1,6 +1,6 @@
 # Stealthy Multi-OS Key Logger
 
-Overview:
+## Overview:
 This key logger is designed to operate discreetly across different operating systems, including Windows, macOS, and Linux. It runs quietly in the background, capturing and sending keystrokes without drawing attention.
 
 Key Features:
@@ -26,5 +26,8 @@ Applications:
 - Parental Controls: Monitor usage on family computers to ensure safety.
 
 - Corporate Oversight: Ensure compliance with company policies and safeguard sensitive information.
+
+# How to Use
+
 
 Important Note: Make sure to use this tool responsibly and legally. Unauthorized key logging can violate privacy laws and regulations. Always get proper consent and follow relevant legal guidelines.
